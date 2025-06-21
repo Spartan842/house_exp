@@ -1,0 +1,121 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fb;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.month-title {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.form-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.btn {
+  background-color: #3498db;
+  color: #fff;
+  grid-column: span 2;
+}
+
+.btn-secondary {
+  background-color: #2ecc71;
+  color: white;
+  margin-right: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ecf0f1;
+  font-weight: 600;
+}
+
+.summary {
+  margin-top: 30px;
+  background-color: #f1f2f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.summary p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.report {
+  font-weight: bold;
+  color: #c0392b;
+}
